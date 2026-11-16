@@ -84,7 +84,7 @@ type Provider struct {
 	// launch: that op launched the agent and took the first turn, so the
 	// launch that follows must not launch again or hand the turn back, even
 	// if a handshake retry has declared a separable launch since
-	// (execTransport.Launch).
+	// (execTransport.Launch). That launch, or a Stop, forgets the name.
 	weldedProvision sync.Map
 
 	// handbacks holds the first turn a separable launch handed back
@@ -372,7 +372,8 @@ func exitTwoIsFailure(op string) bool {
 
 // exitTwoIsStrict reports whether this pack's exit 2 from op is a failure
 // rather than the unknown-op no-op: from an op a v2-ready script must
-// implement (strictWhenReady), or from a driving op of a pack that selected
+// implement (strictWhenReady), from a metadata op of a pack that un-welds
+// start (metaOp), or from a driving op of a pack that selected
 // carrier.ops (opsCarrierDrivingOp), which declared the op and has no other
 // way to drive the session, so a nudge it never delivered is not reported
 // delivered. A driving op of a pack declaring input-outcome is declared
@@ -381,6 +382,9 @@ func exitTwoIsFailure(op string) bool {
 // answering.
 func (p *Provider) exitTwoIsStrict(op string) bool {
 	if strictWhenReady(op) && p.v2Ready() {
+		return true
+	}
+	if metaOp(op) && p.supportsSeparableLaunch() {
 		return true
 	}
 	if inputOutcomeOp(op) && p.inputOutcomesDeclared() {
@@ -394,6 +398,20 @@ func (p *Provider) exitTwoIsStrict(op string) bool {
 func strictWhenReady(op string) bool {
 	switch op {
 	case "stop", "get-meta", "set-meta", "remove-meta", "peek":
+		return true
+	default:
+		return false
+	}
+}
+
+// metaOp reports one of the three metadata ops. A pack that un-welds start
+// must implement them (supportsSeparableLaunch): its first turn is bound to
+// the launch identity gc publishes with set-meta and read back with get-meta
+// (publishLaunchIdentity), so an exit 2 from one is a missing store, never
+// the unknown-op no-op.
+func metaOp(op string) bool {
+	switch op {
+	case "get-meta", "set-meta", "remove-meta":
 		return true
 	default:
 		return false
@@ -582,11 +600,8 @@ func startFailureKeepsBox(startErr error, foreignBox bool) bool {
 // `start` op provisions and launches in one shot (compat). Gates
 // [runtime.TransportCapabilities.SeparableLaunch]. (Un-weld B3b.)
 func (p *Provider) supportsSeparableLaunch() bool {
-	if !p.handshakeCapability(runtime.ProtocolCapabilityProvision) {
-		return false
-	}
-	return p.launchDeclared() ||
-		(!p.opsCarrierSelected() && p.handshakeCapability(runtime.ProtocolCapabilityConnectionExec))
+	info, err := p.Protocol()
+	return err == nil && info.SeparableLaunch()
 }
 
 // provisionBox creates the box for name. When the pack supports a separable
@@ -643,11 +658,12 @@ func (p *Provider) launchAgent(ctx context.Context, name string, cfg runtime.Con
 		return nil
 	}
 	p.handbacks.set(name, runtime.StartupNudge{})
+	p.withdrawLaunchToken(ctx, name, cfg)
 	if p.launchDeclared() {
 		if err := p.runLaunchOp(ctx, name, cfg); err != nil {
 			return err
 		}
-		p.publishLaunchIdentity(name, cfg)
+		p.publishLaunchIdentity(ctx, name, cfg)
 		p.publishReadyPrompt(ctx, name, cfg)
 		return p.dismissStartupDialogs(ctx, name, cfg)
 	}
@@ -673,7 +689,7 @@ func (p *Provider) launchAgent(ctx context.Context, name string, cfg runtime.Con
 	} else if code != 0 {
 		return fmt.Errorf("exec provider: launching agent in %q: tmux exited %d", name, code)
 	}
-	p.publishLaunchIdentity(name, cfg)
+	p.publishLaunchIdentity(ctx, name, cfg)
 	p.publishReadyPrompt(ctx, name, cfg)
 	return p.dismissStartupDialogs(ctx, name, cfg)
 }
@@ -974,6 +990,7 @@ func (p *Provider) DismissKnownDialogs(ctx context.Context, name string, timeout
 // Stop destroys the named session: script stop <name>
 func (p *Provider) Stop(name string) error {
 	p.forgetReadyPrompt(name)
+	p.weldedProvision.Delete(name)
 	_, err := p.run(nil, "stop", name)
 	return err
 }
