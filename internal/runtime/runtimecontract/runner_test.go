@@ -368,6 +368,8 @@ func TestEveryRequirementIsGated(t *testing.T) {
 		{ReqProvisionLaunchFreshOnly, ledit("launch", `if [ -n "$fresh" ]; then exit 73; fi; reap`, `if [ -n "$fresh" ]; then exit 0; fi; reap`), "a fresh_only launch on a running agent exits 0"},
 		{ReqProvisionLaunchFreshOnly, ledit("launch", `if [ -d "$box" ]; then if [ -n "$fresh" ]; then exit 73; fi; reap`, `if [ -n "$fresh" ]; then exit 73; fi; if [ -d "$box" ]; then reap`), "every fresh_only launch exits 73, even into a box with no agent"},
 		{ReqProvisionLaunchFreshOnly, set("provision", `case "$(cat)" in *'"fresh_only":true'*) exit 1 ;; esac`), "provision refuses the fresh_only config gc's fresh start sends it"},
+		{ReqProvisionLaunchIdentity, ledit("set-meta", `v=$(cat); `, `v=$(cat); case "$3" in GC_*) exit 0 ;; esac; `), "set-meta drops the launch identity keys gc writes"},
+		{ReqProvisionLaunchIdentity, set("get-meta", `exit 2`), "get-meta is not implemented on a pack that un-welds start"},
 	}
 	// atMostOnceMutants edit the at-most-once golden, whose written nudge
 	// answers delivered_unobserved and keeps no send record.
@@ -668,6 +670,20 @@ func TestPortedGroupsGateOnWhatIsDeclared(t *testing.T) {
 			want:     func(Result) Status { return StatusSkip },
 		},
 		{
+			// A pack that un-welds start binds its first turn to the
+			// launch identity gc stores with set-meta, so its metadata
+			// ops are required as under observe.v1.
+			name:     "un-welded start, optional ops absent",
+			protocol: `{"version":0,"capabilities":["proc.provision","proc.launch","conformance-faults"]}`,
+			absent:   []string{"set-meta", "get-meta", "remove-meta", "list-running", "process-alive"},
+			want: func(req Result) Status {
+				if req.Group == GroupMeta {
+					return StatusFail
+				}
+				return StatusSkip
+			},
+		},
+		{
 			name:     "observe.v1, optional ops absent",
 			protocol: `{"version":0,"capabilities":["observe.v1","conformance-faults"]}`,
 			absent:   []string{"set-meta", "get-meta", "remove-meta", "list-running", "process-alive"},
@@ -712,7 +728,7 @@ func TestPortedGroupsGateOnWhatIsDeclared(t *testing.T) {
 // provision group's proc.launch requirements are gated on their own: the
 // provision op itself is optional, not a token.
 func TestEveryTokenGroupSkipsWhenUndeclared(t *testing.T) {
-	launchCodes := map[Code]bool{ReqProvisionLaunchStartsAgent: true, ReqProvisionLaunchReplaces: true, ReqProvisionLaunchFreshOnly: true}
+	launchCodes := map[Code]bool{ReqProvisionLaunchStartsAgent: true, ReqProvisionLaunchReplaces: true, ReqProvisionLaunchFreshOnly: true, ReqProvisionLaunchIdentity: true}
 	for _, tc := range []struct {
 		group Group
 		token string
@@ -881,10 +897,11 @@ func TestBaseGoldenSkipsOnlyTheFSHostGroup(t *testing.T) {
 }
 
 // launchRequirement reports a provision-group requirement gated on
-// proc.launch.
+// proc.launch, or on an un-welded start, which a golden without proc.launch
+// does not declare.
 func launchRequirement(code Code) bool {
 	switch code {
-	case ReqProvisionLaunchStartsAgent, ReqProvisionLaunchReplaces, ReqProvisionLaunchFreshOnly:
+	case ReqProvisionLaunchStartsAgent, ReqProvisionLaunchReplaces, ReqProvisionLaunchFreshOnly, ReqProvisionLaunchIdentity:
 		return true
 	default:
 		return false

@@ -72,7 +72,7 @@ func TestScreenReferenceIsConformant(t *testing.T) {
 	// outcomes (input-outcome), so the whole input group skips.
 	wantSkip := map[Code]bool{
 		ReqConnectionExec: true, ReqConnectionIdleBoundary: true, ReqProvisionBoxWithoutAgent: true, ReqObserveInventoryHasActivity: true,
-		ReqProvisionLaunchStartsAgent: true, ReqProvisionLaunchReplaces: true, ReqProvisionLaunchFreshOnly: true,
+		ReqProvisionLaunchStartsAgent: true, ReqProvisionLaunchReplaces: true, ReqProvisionLaunchFreshOnly: true, ReqProvisionLaunchIdentity: true,
 		ReqFSHostSharedView: true, ReqFSHostSameUser: true, ReqFSHostLocal: true, ReqFSHostRunsWhatItCarries: true, ReqFSHostAgentPIDOnHost: true, ReqFSHostHomeView: true,
 		ReqServerStopIdempotent: true, ReqServerStartAfterStop: true, ReqServerStopEndsSession: true,
 		ReqServerStopSparesOtherCities: true,
