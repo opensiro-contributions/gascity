@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "20261118T174030Z--gascity-roadmap-draft-persisted",
+  "recorded_at": "2026-11-18T17:40:30Z",
+  "actor": "xLagerFeuer (explicit request to document Gas City roadmap) / ChatGPT (research and metadata executor)",
+  "kind": "DECISION",
+  "contribution_id": null,
+  "decision": "ALLOW",
+  "scope": "Single named Gas City roadmap research and fork-local opensiro/meta persistence only. No original-repository publication, product edits or public fork GitHub Issue without exact separate approval.",
+  "evidence_urls": [
+    "https://github.com/gastownhall/gascity/commit/208a43158ccd33a8f1e066d80daf65c9f3bea713",
+    "https://github.com/opensiro/vsm-harness-index/commit/5f6ea0c777733813ca42e3f210390a719488dcfb",
+    "https://github.com/opensiro-contributions/gascity"
+  ],
+  "next_action": "Confirm exact public fork Issue title/body in this conversation before publishing; independently establish missing canonical Gas City assessment and test native S4 applicability."
+}
