@@ -1,5 +1,8 @@
 # Gas City — conditional S4 constructor sufficiency and native validation contract
 
+**FINAL FOLLOW-UP DECISION (2026-11-18): `NO_USEFUL_CHANGE` for a NEW Gas City SDK/core S4 constructor.** The initial `NEEDS_EVIDENCE` plan and conditional P0 below are superseded **as an implementation recommendation**. Verified native agents/packs/orders/formulas/configuration and the existing narrower original issues do not establish any missing SDK port or incremental user benefit. **This is not an accepted VSM grade or proof of complete S4=C.** [Full source-native verdict](verification-20261118.md). No public fork/original Issue is recommended or published for this rejected SDK proposal.
+
+
 **PLAN_ONLY · NEEDS_EVIDENCE · NOT IMPLEMENTED · INDEX_BASELINE_MISSING.**  
 [Human Issue](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/issue.md) · [source receipt](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/roadmap.md) · original [Gas City @ `208a43158ccd33a8f1e066d80daf65c9f3bea713`](https://github.com/gastownhall/gascity/commit/208a43158ccd33a8f1e066d80daf65c9f3bea713).
 
@@ -95,4 +98,4 @@ The S4 actor is *not* authorized to alter S5-level policy (which providers/crede
 - Domain pack/fork: compare alternative future-provider decision policies independently in a permitted experimental configuration.
 - Cost: same prospective provider change, baseline vs adaptation. Measure build, review, tests, compatibility, prevented failed sessions, human interventions and operational maintenance. **NOT_MEASURED**.
 
-**Final narrative status: NEEDS_EVIDENCE.** This contract is a falsifiable construction target, not proof that a new SDK port is required or that `S4=C` exists.
+**Final new-SDK engineering decision: NO_USEFUL_CHANGE.** The construction links remain falsifiable research tests but are no longer an implementation target. `S4=C` is NOT proven.

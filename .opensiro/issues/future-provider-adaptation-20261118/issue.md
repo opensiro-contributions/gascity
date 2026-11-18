@@ -1,5 +1,8 @@
 # Gas City — composable future-provider adaptation roadmap (OpenSiro plan-only)
 
+**FINAL FOLLOW-UP DECISION (2026-11-18): `NO_USEFUL_CHANGE` for a NEW Gas City SDK/core S4 constructor.** The initial `NEEDS_EVIDENCE` plan and conditional P0 below are superseded **as an implementation recommendation**. Verified native agents/packs/orders/formulas/configuration and the existing narrower original issues do not establish any missing SDK port or incremental user benefit. **This is not an accepted VSM grade or proof of complete S4=C.** [Full source-native verdict](verification-20261118.md). No public fork/original Issue is recommended or published for this rejected SDK proposal.
+
+
 **OpenSiro architecture-first pilot · PLAN_ONLY · NEEDS_EVIDENCE · PUBLIC FORK ISSUE DRAFT — NOT PUBLISHED.**  
 **Source:** [gastownhall/gascity @ `208a43158ccd`](https://github.com/gastownhall/gascity/commit/208a43158ccd33a8f1e066d80daf65c9f3bea713) (main observed 2026-11-18).  
 **Companions:** [AI/developer sufficiency contract](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/constructor-sufficiency.md) · [source-pinned receipt](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/roadmap.md) · [case README](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/README.md).
@@ -68,6 +71,6 @@ This is supported as a plausible problem by original [#8419 — stale model alia
 
 Compare the same planned provider migration using **manual native configuration** vs **developer-composed adaptation**. Collect engineering and test hours, operational intervention frequency, forced restarts, failed later runs, security/compatibility issues and maintenance cost. **`NOT_MEASURED`**.
 
-**Decision: `NEEDS_EVIDENCE`.** A bounded future S4 scenario is plausible, and Gas City exposes promising primitives, but whether a *new* first-party constructor is useful is **not established**. This is a complete plan-only case, not an implementation-ready `S4=C` finding. No external-original Issue/PR/comment, public fork Issue or product-code changes are authorized by this document.
+**Final decision: `NO_USEFUL_CHANGE` for NEW SDK/core S4; the old conditional S4 architecture below is a historical rejected hypothesis.** A bounded future S4 scenario is plausible, and Gas City exposes promising primitives, but whether a *new* first-party constructor is useful is **not established**. This is a complete plan-only case, not an implementation-ready `S4=C` finding. No external-original Issue/PR/comment, public fork Issue or product-code changes are authorized by this document.
 
 **AI disclosure:** Prepared with AI assistance, using public source review. No native tests, independent human audit, actual model-switching experiment or measured savings are claimed.

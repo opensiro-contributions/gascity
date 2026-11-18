@@ -1,9 +1,13 @@
 # Capability Roadmap Receipt — Gas City (source-pinned PLAN_ONLY)
 
+**FINAL FOLLOW-UP DECISION (2026-11-18): `NO_USEFUL_CHANGE` for a NEW Gas City SDK/core S4 constructor.** The initial `NEEDS_EVIDENCE` plan and conditional P0 below are superseded **as an implementation recommendation**. Verified native agents/packs/orders/formulas/configuration and the existing narrower original issues do not establish any missing SDK port or incremental user benefit. **This is not an accepted VSM grade or proof of complete S4=C.** [Full source-native verdict](verification-20261118.md). No public fork/original Issue is recommended or published for this rejected SDK proposal.
+
+
 ## Identity and pins
 
 - Original repository: gastownhall/gascity
-- Original HEAD: 208a43158ccd33a8f1e066d80daf65c9f3bea713
+- Original HEAD: 03f6fe825cf0a54c677c241e4aaa7e76dade28a5
+- Initial case observed HEAD: 208a43158ccd33a8f1e066d80daf65c9f3bea713 (one intervening orphan-cleanup commit, irrelevant to this S4 decision).
 - Observed at: 2026-11-18
 - Accepted Index assessment: NOT_AVAILABLE — no Gas City assessment found in the canonical Index tree at https://github.com/opensiro/vsm-harness-index/commit/5f6ea0c777733813ca42e3f210390a719488dcfb
 - Accepted assessment blob SHA: NOT_AVAILABLE
@@ -59,11 +63,11 @@
 
 ## Capability priority
 
-- **P0 / conditional S4 C-construction hypothesis:** source-linked future provider disturbance → versioned compatibility/options → developer-composed lawful choice `retain/migrate/hold` → guarded first-party config/session effect in a later session → observed real feedback to S3. This is not an Index C grade or a proved new need.
+- **P0 / REJECTED conditional S4 C-construction hypothesis (historical; NO new SDK core):** source-linked future provider disturbance → versioned compatibility/options → developer-composed lawful choice `retain/migrate/hold` → guarded first-party config/session effect in a later session → observed real feedback to S3. This is not an Index C grade or a proved new need.
 - **P1 / prerequisites:** independent accepted Index baseline; actual future input and alternative compatible runtime; first-party native manual vs pack/formula/agent pilot; staleness/right checks; protected active sessions and subsequent results; measure material value.
 - **P2 / NONE:** no separate compelling S3 or S5 constructor.
 - **C sufficiency claim:** NOT_PROVEN. Five linked first-party ports, a developer-configured autonomous choice and positive/negative later-session tests are required before a formal candidate can be proposed.
-- **Decision:** NEEDS_EVIDENCE. Feature-level need and non-duplicative gap unknown; do not optimize missing canonical grades.
+- **Decision:** NO_USEFUL_CHANGE for adding a *new SDK/core S4 adaptation constructor*. Existing native composition and specific owner issues are the next lowest-cost paths; no S4 closure/grade is asserted. [Final evidence](verification-20261118.md).
 
 ## Implementation options
 
@@ -88,10 +92,10 @@
 
 ## Delivery and publication
 
-- Result: NEEDS_EVIDENCE
+- Result: NO_USEFUL_CHANGE
 - Route: PLAN_ONLY; [exact proposed Human Issue](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/issue.md) + linked AI contract + receipt persisted in dedicated fork metadata.
-- Fork public Issue: READY_FOR_FORK_ISSUE_APPROVAL — NOT PUBLISHED (full destination, exact title and unchanged issue.md require new approval).
+- Fork public Issue: NOT PUBLISHED; previous draft superseded. No new public feature issue recommended for a rejected speculative core capability.
 - External issue: DRAFT — NOT PUBLISHED
 - Actual original Issue, PR, code edits, Index acceptance, cost experiments and native tests: NOT_PERFORMED.
 - Receipt validator: NOT_PASSABLE_WITHOUT_ACCEPTED_GAS_CITY_INDEX_BASELINE. Canonical validator requires real pinned assessment blob/review SHA/date; no fabricated values; structural source/link and authorization checks reported separately.
-- Next permitted action: explicit current-conversation approval of exact single fork-local public Issue, then read back GitHub Issue URL/title/body and record receipt; separately request canonical Index assessment and qualify the prospective native end-to-end user delta.
+- Next permitted action: decline new SDK S4 work. Use existing original issue pathways for concrete bugs; a future new case requires a real prospective user task, a failing native comparator, protected later-session evidence, and cost/benefit.

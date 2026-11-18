@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "20261118T180009Z--gascity-s4-no-useful-sdk-change",
+  "recorded_at": "2026-11-18T18:00:09Z",
+  "actor": "ChatGPT (user-directed public-source roadmap reviewer)",
+  "kind": "DECISION",
+  "contribution_id": null,
+  "decision": "NO_USEFUL_CHANGE",
+  "scope": "No new Gas City SDK/core S4 prospective provider adaptation constructor. Existing original issues and native pack/agent/order/config are independent options; no accepted S4 grade, product change or outward Issue.",
+  "evidence_urls": [
+    "https://github.com/gastownhall/gascity/commit/03f6fe825cf0a54c677c241e4aaa7e76dade28a5",
+    "https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/verification-20261118.md",
+    "https://github.com/gastownhall/gascity/issues/8419",
+    "https://github.com/gastownhall/gascity/issues/8367"
+  ],
+  "next_action": "Do not publish or implement rejected core feature; reopen a separate case only for a demonstrated native-comparator failure with a real prospective user need."
+}
