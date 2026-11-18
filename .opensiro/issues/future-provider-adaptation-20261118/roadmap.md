@@ -1,101 +1,82 @@
-# Capability Roadmap Receipt — Gas City (source-pinned PLAN_ONLY)
-
-**FINAL FOLLOW-UP DECISION (2026-11-18): `NO_USEFUL_CHANGE` for a NEW Gas City SDK/core S4 constructor.** The initial `NEEDS_EVIDENCE` plan and conditional P0 below are superseded **as an implementation recommendation**. Verified native agents/packs/orders/formulas/configuration and the existing narrower original issues do not establish any missing SDK port or incremental user benefit. **This is not an accepted VSM grade or proof of complete S4=C.** [Full source-native verdict](verification-20261118.md). No public fork/original Issue is recommended or published for this rejected SDK proposal.
-
+# Gas City — accepted-assessment Capability Roadmap Receipt (FINAL)
 
 ## Identity and pins
 
 - Original repository: gastownhall/gascity
 - Original HEAD: 03f6fe825cf0a54c677c241e4aaa7e76dade28a5
-- Initial case observed HEAD: 208a43158ccd33a8f1e066d80daf65c9f3bea713 (one intervening orphan-cleanup commit, irrelevant to this S4 decision).
 - Observed at: 2026-11-18
-- Accepted Index assessment: NOT_AVAILABLE — no Gas City assessment found in the canonical Index tree at https://github.com/opensiro/vsm-harness-index/commit/5f6ea0c777733813ca42e3f210390a719488dcfb
-- Accepted assessment blob SHA: NOT_AVAILABLE
-- Accepted review ref: NOT_AVAILABLE
-- Accepted reviewed at: NOT_AVAILABLE
-- System in focus: One first-party Gas City deployment with city pack and rig scopes, agents, work beads, orchestrator, order triggers, events, runtime registry, config and session reconciliation; external provider vendor lifecycles and third-party packs are not automatically owned by the core.
-- Profile/Skills attribution: NOT_AVAILABLE for Gas City (do not import Gas Town's accepted vector).
-- Index audit: canonical vsm-harness-index main `5f6ea0c777733813ca42e3f210390a719488dcfb` on 2026-11-18, recursive tree filename search no `gascity`; Index issue search no `gascity`. Treat accepted six-function vector as NOT_ASSESSED, not a negative grade.
-- Original default/main HEAD and fork HEAD matched at creation; separate https://github.com/opensiro-contributions/gascity has parent `gastownhall/gascity`. Original commit link: https://github.com/gastownhall/gascity/commit/208a43158ccd33a8f1e066d80daf65c9f3bea713.
+- Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f/assessments/ga/gascity.md
+- Accepted assessment blob SHA: 91478bc006342a6f92f41e3670d5708e50592da1
+- Accepted review ref: 03f6fe825cf0a54c677c241e4aaa7e76dade28a5
+- Accepted reviewed at: 2026-11-18
+- System in focus: A first-party Gas City installed city, with configured coding agents, rigs, bundled core pack, bead-backed formula graphs, orders/events, native config editor, session runtime and reconciler. External providers and maintainers' GitHub development workflow excluded.
+- Accepted Index commit: 34e11ec4dd52e1ba3ee0111d8bca73f13918f54f
+- Accepted catalog identity: `1287|gascity|Gas City|https://github.com/gastownhall/gascity|2026-02-22T01:40:16Z|index-addition|03f6fe825cf0a54c677c241e4aaa7e76dade28a5|2026-11-18`.
+- Active Profile version: `0.2.4`; Methodology version: `0.3.8`; accepted semantic review age **0 calendar days**. Index PR #3366 merged; current original HEAD and accepted review ref match.
 - Human Issue: https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/issue.md
-- AI/developer technical contract: https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/constructor-sufficiency.md
+- AI/developer contract: https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/constructor-sufficiency.md
+- Verified assessment-backed rerun: https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/verification-20261118.md
 
 ## Rights and authority
 
-- MIT source license: https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/LICENSE
-- Contributor guidance: https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/CONTRIBUTING.md ; original [ROADMAP](https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/ROADMAP.md) recommends feature-form Issue for substantial work; Bazel `make check`, acceptance and integration tiers. Using AI is allowed with human responsibility.
-- External third-party interaction, original Issue/PR/comment and public fork Issue publication are distinct consent gates. No CLA/DCO exclusion or AI disclosure-policy waiver is assumed.
-- Verified fork `opensiro-contributions/gascity`, parent `gastownhall/gascity`, `opensiro/meta` dedicated for research. Owner's present request permits fork provisioning/persisting one named research case, NOT public text publication, code implementation or third-party maintainer interaction.
-- Fork metadata owner control: initial scoped ALLOW decision for case persistence only, event attribution in `.opensiro/events/`. No broad automatic publication mandate.
+- Original [MIT LICENSE](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/LICENSE), [CONTRIBUTING.md](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/CONTRIBUTING.md) and [ROADMAP.md](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/ROADMAP.md): original-native constraints, Bazel tests, maintainer priority, AI-use responsibility.
+- The verified `opensiro-contributions/gascity` fork's `opensiro/meta` `owner_control: ALLOW` permits research metadata updates; the default product branch is untouched.
+- Upstream mandatory accepted-assessment preflight is now PASSED with main commit+blob/catalog. A new canonical Index assessment was admitted before this rerun, **not** inferred from a draft.
+- No permission to publish fork/original GitHub Issues, PRs or public comments; publication needs exact current-conversation approval. No product implementation, policy/credentials escalation or automatic parent S5 delegation.
 
 ## Existing work / overlap
 
-**Original source SHIPPED at `208a43158ccd33a8f1e066d80daf65c9f3bea713`:**
-- https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/docs/getting-started/how-gas-city-works.md — six generic primitives, durable formula workflow and event bus.
-- https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/docs/tutorials/07-orders.md — orders can invoke formulas or commands on schedule, condition or events; generic automation does not imply S4.
-- https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/docs/guides/gastown-config-recipes.md — root/rig provider override through pack patches, not a future autonomous decision witness.
-- https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/cmd/gc/runtime_registry.go and https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/internal/config/pack_runtimes.go — pack-declared runtime registry and supported config validation.
-- https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/cmd/gc/cmd_reload.go — source-native configuration reload; changes to active sessions require separate protected lifecycle evidence.
-- https://github.com/gastownhall/gascity/blob/208a43158ccd33a8f1e066d80daf65c9f3bea713/ROADMAP.md — first-party 1.6 priorities: reconciler reliability (#7093), performance (#7094), contributor onboarding (#7095).
+**Shipped first-party `gastownhall/gascity@03f6fe825cf0a54c677c241e4aaa7e76dade28a5`:** [agents/beads/formulas](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/docs/getting-started/how-gas-city-works.md); [core work formula](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/internal/bootstrap/packs/core/formulas/mol-do-work.toml); [review-quorum constructor](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/internal/bootstrap/packs/core/formulas/mol-review-quorum.toml); [orders and events](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/docs/tutorials/07-orders.md); [pack/rig provider patches](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/docs/guides/gastown-config-recipes.md); [config editor](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/internal/configedit/configedit.go); [reload](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/cmd/gc/cmd_reload.go); [runtime registry](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/cmd/gc/runtime_registry.go). These are discrete verified mechanisms, **not a source-native five-link S4 acceptance**.
 
-**Original work / source status observed 2026-11-18:**
-- [#8419 stale model aliases](https://github.com/gastownhall/gascity/issues/8419): OPEN, concrete stale model catalog, not a future-controller request.
-- [#8367 model-pricing gap](https://github.com/gastownhall/gascity/issues/8367): OPEN; no assertion model cost fixed.
-- [#19 account/quota rotation](https://github.com/gastownhall/gascity/issues/19): OPEN, mainly present-rate-limit response.
-- [#2075 provider/runtime pack split](https://github.com/gastownhall/gascity/issues/2075): OPEN, proposed architecture; some registry and pack functionality already present.
-- [#9006 runtime protocol completeness](https://github.com/gastownhall/gascity/issues/9006): OPEN, first-party maintainers are evaluating missing capabilities.
-- [#8370 asleep config drift](https://github.com/gastownhall/gascity/issues/8370): OPEN / deferred until eligible case; only same-provider bounded resume conditions even discussed.
-- [PR #8693 standby provider](https://github.com/gastownhall/gascity/pull/8693): OPEN, UNMERGED, head `8dbcddac9fc710430aef7362f7e53f9da4eee5f7`, reactive stall response.
-- [PR #2718 k8s runtime identity](https://github.com/gastownhall/gascity/pull/2718): OPEN, UNMERGED, head `12d2f286e537495b7f3798f32b738afca3fe5c70`.
-- [PR #4967 event-driven reconciliation](https://github.com/gastownhall/gascity/pull/4967): OPEN, UNMERGED, head `cd8854f3b80912faca40e04e5534bb2a98e6fb91`.
+**Original open/overlapping:** [#8419 stale aliases](https://github.com/gastownhall/gascity/issues/8419), [#8367 pricing](https://github.com/gastownhall/gascity/issues/8367), [#19 reactive quota/account](https://github.com/gastownhall/gascity/issues/19), [#2075 provider/runtime packs](https://github.com/gastownhall/gascity/issues/2075), [#9006 runtime protocol](https://github.com/gastownhall/gascity/issues/9006), [#8370 deferred session retention](https://github.com/gastownhall/gascity/issues/8370); **OPEN/UNMERGED** [PR #8693 standby](https://github.com/gastownhall/gascity/pull/8693) head `8dbcddac9fc710430aef7362f7e53f9da4eee5f7`, [PR #2718 runtime identity](https://github.com/gastownhall/gascity/pull/2718) head `12d2f286e537495b7f3798f32b738afca3fe5c70`. No claim of merged coverage or code adoption.
+- Original maintainer priorities: [ROADMAP.md](https://github.com/gastownhall/gascity/blob/03f6fe825cf0a54c677c241e4aaa7e76dade28a5/ROADMAP.md) — 1.6 reconciler, performance and contributor onboarding, not abstract future S4 upgrade.
+- Manual and native comparator: current root/rig provider patch, config reload and optional bounded order/formula; no actual user/provider switch test executed.
 
 ## Function ownership
 
-- Canonical S1: NOT_ASSESSED; configured agents execute work, but no accepted current Index owner state.
-- Canonical S2: NOT_ASSESSED; orchestrator/dependency gating present, no accepted ownership classification.
-- Canonical S3: NOT_ASSESSED; reconciler maintains present session/resource state, no accepted ownership classification.
-- Canonical S3*: NOT_ASSESSED; review steps may be independently configured, but no accepted complementary-audit witness.
-- Canonical S4: NOT_ASSESSED; future provider options may be composed using packs, orders, agents and runtime selection, but first-party future-disturbance → autonomous lawful choice → guarded later-session operation → feedback **not established**.
-- Canonical S5: NOT_ASSESSED; reserved operator/provider-policy rights not a default autonomous S5 grade.
-- Disturbance: credible, externally verified prospective model/provider lifecycle change, not a current 429/retry failure.
-- Decision owner: candidate independently developer-composed S4 actor operating within delegated options; S3 current operational state remains owned by orchestrator/reconciler; S5 reserved policy cannot be altered.
-- Return: actual future session ID, effective provider/model, task/result/failure must feed back into current management, not just return a static suggestion.
+- **Accepted historical vector (central, not proposed): S1=A / S2=C / S3=P / S3*=C / S4=— / S5=—.** Source: https://github.com/opensiro/vsm-harness-index/blob/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f/assessments/ga/gascity.md @ `34e11ec4dd52e1ba3ee0111d8bca73f13918f54f`, blob `91478bc006342a6f92f41e3670d5708e50592da1`.
+- S1: model-led worker (A) via shipped coding workflow; S2: developer-composable conflict-aware scoped work (C); S3: human parent current city control, returned to reconciler (P); S3*: independent review-quorum constructor with configured lanes (C); S4: bounded no shipped prospective adaptation loop (—); S5: bounded no ultimate policy closure (—).
+- Candidate disturbance: genuine **future** vendor model retirement affecting a named city, not current quota failure.
+- Candidate decision owner: independently developer-composed bounded S4 agent selecting `retain/migrate/hold` within operator-approved options. S3 operational/parent controls and S5 credentials/policy stay with legitimate owner.
+- Necessary return: actual future session's effective model/provider + task outcome tied to choice; generic event or reload acknowledgment alone insufficient.
+- Function-specific complete first-party S4=C constructor: **NOT_PROVEN / NOT_IMPLEMENTED**, and not a mandatory upgrade just because S4=—.
 
 ## Capability priority
 
-- **P0 / REJECTED conditional S4 C-construction hypothesis (historical; NO new SDK core):** source-linked future provider disturbance → versioned compatibility/options → developer-composed lawful choice `retain/migrate/hold` → guarded first-party config/session effect in a later session → observed real feedback to S3. This is not an Index C grade or a proved new need.
-- **P1 / prerequisites:** independent accepted Index baseline; actual future input and alternative compatible runtime; first-party native manual vs pack/formula/agent pilot; staleness/right checks; protected active sessions and subsequent results; measure material value.
-- **P2 / NONE:** no separate compelling S3 or S5 constructor.
-- **C sufficiency claim:** NOT_PROVEN. Five linked first-party ports, a developer-configured autonomous choice and positive/negative later-session tests are required before a formal candidate can be proposed.
-- **Decision:** NO_USEFUL_CHANGE for adding a *new SDK/core S4 adaptation constructor*. Existing native composition and specific owner issues are the next lowest-cost paths; no S4 closure/grade is asserted. [Final evidence](verification-20261118.md).
+- **P0 S4 candidate:** Conditional future-provider adaptation described in linked AI contract. It is **NOT QUALIFIED** as an additional SDK/core feature in the absence of a real source-backed user task and native baseline failure.
+- **P1 existing original:** Use original Issues #8419, #8367 and relevant #19/#2075/#9006 rather than duplicating; a separately permitted domain-pack experiment is conditional on actual future user evidence.
+- **P2 S3/S5:** NONE justified. The accepted S3=P and S5=— stand; there is no current independent user outcome requiring automatic C construction for them.
+- **Terminal operator decision: NO_GO** — no new S4 controller/SDK abstraction or publication now.
+- **Research result: NEEDS_EVIDENCE** — the incremental usefulness question remains genuinely unproved; do not assert `NO_USEFUL_CHANGE` from absence of evidence.
+- **Minimum qualified future S4=C integration:** external future signal → operator-allowed options → real developer-configured autonomous chooser → protected later session config/runtime apply → real returned later task outcome; positive, alternate choice, missing actor and rights/concurrency/failure tests required.
 
 ## Implementation options
 
-- First and cheapest: current root/rig `[[patches.agent]]`, provider config and native order/formula with real future signal, approved options and manual review. May be sufficient.
-- If user task needs an autonomous future decision and existing pieces can compose it, implement only as a permitted Gas City pack/agent policy (no new core API).
-- Only if a first-party safety/feedback integration is genuinely missing after a tested native prototype, propose its smallest SDK config/session/receipt change to original's owner. Avoid duplicating #19, #2075, #9006, #8693, #2718 and #8370.
-- Proposed acceptance cases T01–T10 in [AI companion](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/constructor-sufficiency.md) include future positive, alternative hold, missing actor, unauthorized provider, stale revision, active-session protection, failed launch, missing unmerged capability, baseline comparison and unsupported runtime.
-- Native tests: NOT_RUN; future code would require `make check`, `make test-acceptance`, `make test-integration`, test-scratch-city isolation and actual CI evidence.
-- If no material capability, classify idea `NO_USEFUL_CHANGE`. A necessary future governance/rights choice remains human.
+- Best current native answer: original config patches, supported order/formula policy and operator review, leaving current reconciler rights and provider lifecycle intact.
+- Proposed new SDK code: **NOT AUTHORIZED** and **NOT NECESSARY TO PLAN NOW**, because current evidence lacks an actual matched user need that fails native alternatives. No generic S4 scheduler/controller role should be added just to raise VSM grade.
+- Actual tests: **NOT_RUN**. Future comparator checks include prospective choice, hold, missing actor, invalid provider, stale revision, protected active session, launch failure and truthful feedback, all under a separate permitted scratch city.
+- Revision validation: accepted Index `review_ref` and current original HEAD were the same on 2026-11-18; no stale reassessment issue required.
+- Cost effect: NOT_MEASURED.
 
 ## Specification and domain alternatives
 
-- Independent Index assessment under canonical Index ownership; no copied Gas Town vector and no newly asserted C. Profile/Skills work only if a genuine methodology ambiguity survives source evidence.
-- Domain-specific experimental pack/fork independent of original Go implementation; compare developer-composed options with manual current native workflow.
-- Original third-party feature discussion and outward code PR require distinct exact current-conversation consent; this research does not contact maintainers.
+- Canonical assessment already accepted in Index PR #3366. No parallel fork-local assessment, new grade, or Profile/Skills specification edit needed for this completed source-pinned roadmap.
+- Domain-specific pack is the first admissible experiment if a named real future provider case appears; compare it against manual native use before proposing any SDK core API.
+- Work on original bug/feature existing Issues only under separately authorized upgrade/publication gates; this plan sends no external message.
 
 ## Cost experiment
 
-- Same prospective provider migration, matched alternative scenarios and supported first-party mode.
-- Compare manual native config+reload, pack/order policy and any actual SDK port on implementation/review/test time, repeated adaptation operations, failed later sessions, operator interventions, downtime, security risks and maintenance.
+- Paired future-provider migration comparator: native manual patch/reload, opt-in pack/order/agent, and only if needed smallest SDK port. Measure implementation/review/test time, operator interventions, interrupted in-flight tasks, failed later sessions, credential/policy violations and ongoing maintenance.
 - Cost status: NOT_MEASURED
 
 ## Delivery and publication
 
-- Result: NO_USEFUL_CHANGE
-- Route: PLAN_ONLY; [exact proposed Human Issue](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/issue.md) + linked AI contract + receipt persisted in dedicated fork metadata.
-- Fork public Issue: NOT PUBLISHED; previous draft superseded. No new public feature issue recommended for a rejected speculative core capability.
+- Result: NEEDS_EVIDENCE
+- Operator decision: NO_GO
+- Route: PLAN_ONLY research rerun after accepted Index admission.
+- Verified fork-local artifacts: [Human](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/issue.md), [AI](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/constructor-sufficiency.md), [final evidence](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/verification-20261118.md).
+- Fork public Issue: NOT PUBLISHED — exact full body is saved locally, but NO_GO means an abstract public feature proposal is not recommended. Any publication requires separate exact approval.
 - External issue: DRAFT — NOT PUBLISHED
-- Actual original Issue, PR, code edits, Index acceptance, cost experiments and native tests: NOT_PERFORMED.
-- Receipt validator: NOT_PASSABLE_WITHOUT_ACCEPTED_GAS_CITY_INDEX_BASELINE. Canonical validator requires real pinned assessment blob/review SHA/date; no fabricated values; structural source/link and authorization checks reported separately.
-- Next permitted action: decline new SDK S4 work. Use existing original issue pathways for concrete bugs; a future new case requires a real prospective user task, a failing native comparator, protected later-session evidence, and cost/benefit.
+- Original GitHub PR/comment, fork product changes, runtime test, cost experiments: NONE.
+- Canonical assessment: INCLUDED, matching Index catalog and source ref. Structural roadmap validator can now run without fabricated provenance.
+- Next lawful action: no SDK S4 implementation. Reopen a separate case only when a real prospective user task and supported native comparator falsify the current NO_GO rationale; then evaluate whether the smallest first-party port has a measurable benefit.

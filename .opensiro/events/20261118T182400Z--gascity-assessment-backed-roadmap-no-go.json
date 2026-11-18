@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "20261118T182400Z--gascity-assessment-backed-roadmap-no-go",
+  "recorded_at": "2026-11-18T18:24:00Z",
+  "actor": "ChatGPT (user-directed accepted-assessment-first roadmap rerun)",
+  "kind": "DECISION",
+  "contribution_id": null,
+  "decision": "NO_GO",
+  "scope": "Gas City SDK/core S4 feature not qualified; accepted Index baseline is authoritative; research NEEDS_EVIDENCE, no proof NO_USEFUL_CHANGE. No public fork/original Issue or implementation.",
+  "evidence_urls": [
+    "https://github.com/opensiro/vsm-harness-index/blob/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f/assessments/ga/gascity.md",
+    "https://github.com/opensiro/vsm-harness-index/commit/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f",
+    "https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/verification-20261118.md",
+    "https://github.com/gastownhall/gascity/commit/03f6fe825cf0a54c677c241e4aaa7e76dade28a5"
+  ],
+  "next_action": "Only named future operator evidence and a failed source-native comparator may unlock a separately authorized new scoped S4 feature roadmap."
+}
