@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261118T184901Z--gascity-postassessment-source-drift-reviewed",
+  "recorded_at": "2026-11-18T18:49:01Z",
+  "actor": "ChatGPT (post-assessment source freshness reviewer)",
+  "kind": "OBSERVATION",
+  "contribution_id": null,
+  "decision": "NO_GO_UNCHANGED",
+  "scope": "Source freshness only; no new-ref Index reassessment. Existing assessment-backed NO_GO for new Gas City S4 SDK feature unchanged.",
+  "evidence_urls": [
+    "https://github.com/gastownhall/gascity/compare/03f6fe825cf0a54c677c241e4aaa7e76dade28a5...d1c45f12f6a7102333c6574fe6de571377fd532f",
+    "https://github.com/opensiro/vsm-harness-index/blob/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f/assessments/ga/gascity.md"
+  ],
+  "next_action": "Keep historical accepted review ref distinct from moving original HEAD; rerun under new Index review only for material functional change."
+}

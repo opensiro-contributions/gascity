@@ -25,3 +25,11 @@ The accepted `S4=—` establishes the *absence of a positive prospective adaptat
 - **Gas City end-to-end original-native adaptation:** NOT_RUN. The prior attempt to fetch a release binary returned an SSH tool-layer error; no product failure/success was observed.
 - **Cost reduction and independent human audit:** NOT_MEASURED / NOT_PERFORMED.
 - **Publication:** no public fork issue, original issue/PR/comment or new product-code commits. The saved Human draft is a research record, not outward communication.
+
+## Post-assessment source freshness — 2026-11-18T18:49:01Z
+
+The accepted Index `review_ref` **remains frozen** at [`03f6fe825cf0a54c677c241e4aaa7e76dade28a5`](https://github.com/gastownhall/gascity/commit/03f6fe825cf0a54c677c241e4aaa7e76dade28a5). Later on the same day the original `main` advanced one commit to [`d1c45f12f6a7102333c6574fe6de571377fd532f`](https://github.com/gastownhall/gascity/commit/d1c45f12f6a7102333c6574fe6de571377fd532f) ([exact comparison](https://github.com/gastownhall/gascity/compare/03f6fe825cf0a54c677c241e4aaa7e76dade28a5...d1c45f12f6a7102333c6574fe6de571377fd532f)): [#8127](https://github.com/gastownhall/gascity/pull/8127) — `feat(hook): honor gc.exclude_claimants on every claim tier`.
+
+The changed `cmd/gc/cmd_hook*.go`, `internal/beadmeta/exclude_claimants.go`, `internal/config/workquery.go`, workquery fixtures/tests and CLI reference affect **current work claim/routing mechanics**. They do not supply a prospective provider/model signal, S4 adaptation chooser, future-policy apply or downstream adaptation feedback in the investigated S4 case. Thus **the assessment's historical pin is not silently advanced** and the narrow roadmap **NO_GO** for a *new S4 SDK controller* remains supportable. A separate Index owner may re-review affected S2/current-operation interpretations if future evidence warrants it; this check is **not** canonical new-ref reassessment.
+
+The local [accepted-source roadmap receipt](roadmap.md) records the independently observed newest original HEAD while keeping the accepted `review_ref` unchanged. No tests of the new source were executed in this freshness check. Source and Index are not asserted byte-identical at the later observation time.
