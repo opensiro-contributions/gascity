@@ -3,7 +3,7 @@
 ## Identity and pins
 
 - Original repository: gastownhall/gascity
-- Original HEAD: d1c45f12f6a7102333c6574fe6de571377fd532f
+- Original HEAD: 3764de45ea174753b4a401d98f6ab86740a151f7
 - Original HEAD observed at: 2026-11-18T18:49:01Z
 - Accepted historical review_ref remains: 03f6fe825cf0a54c677c241e4aaa7e76dade28a5
 - Observed at: 2026-11-18
@@ -70,6 +70,15 @@
 
 - Paired future-provider migration comparator: native manual patch/reload, opt-in pack/order/agent, and only if needed smallest SDK port. Measure implementation/review/test time, operator interventions, interrupted in-flight tasks, failed later sessions, credential/policy violations and ongoing maintenance.
 - Cost status: NOT_MEASURED
+
+## Native-first constructibility checkpoint (PLAN_ONLY / NOT_RUN)
+
+- Selected next plan: [`native-s4-feasibility.md`](https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/native-s4-feasibility.md), maintained in the **same case**.
+- Immediate decision: **research/fixture design YES; new universal SDK S4 controller NO_GO; no executable experiment authorized by this document**.
+- Order of work: (1) future-specific user counterfactual + native manual baseline; (2) trace and, after separate approval, test an isolated pack/order/formula actor and guarded later-session return; (3) dedupe source-owned Issues and open PRs by *function*, not title; (4) compare outputs/costs and issue a **`PACK_SUFFICIENT` / `GO_MINIMAL_PORT` / `NO_GO` / `BLOCKED`** engineering decision.
+- Acceptance: constructive native future S4 chain must include a lawful different choice, missing-actor and unauthorized negative cases, stale config/active-session safety and actual later task feedback; a synthetic future notice cannot establish real demand.
+- Tested/implemented: **NOT_RUN / NOT_IMPLEMENTED**. `NO_GO` for a NEW generic SDK constructor continues; the research usefulness question remains `NEEDS_EVIDENCE`.
+- Original `main` source freshness: three later commits [`3764de45ea174753b4a401d98f6ab86740a151f7`](https://github.com/gastownhall/gascity/commit/3764de45ea174753b4a401d98f6ab86740a151f7) relative to accepted `03f6fe825cf0a54c677c241e4aaa7e76dade28a5`; changes are claimant exclusion, named-session close and test helper budget, not a first-party S4 closure. Historical review pin retained unchanged.
 
 ## Delivery and publication
 

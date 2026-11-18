@@ -46,6 +46,10 @@ Original open source work: [#8419](https://github.com/gastownhall/gascity/issues
 
 **Authority:** developer-installed policy actor has only explicitly approved future provider options. Deterministic exec orders run in controller context; they are not safe S4 authority delegation by default. Existing S3 parent operator, reconciler and S5 external policy retain ultimate control. Reproducible negative paths required.
 
+## Native-first experiment specification (next stage only)
+
+[Exact staged plan and evidence matrix](native-s4-feasibility.md) is the **test-authority and sufficiency comparator** for the existing five-port hypothesis. It distinguishes the mandatory future distinction, lawful alternatives, developer-installed choice, authorized later effect and actual post-effect task feedback. Do not infer new runtime rights from `exec`, a config mutex, an unmerged original PR or the `S4=—` accepted grade. Synthetic fixture runs, if later authorized, can establish technical feasibility but not real user demand or measured savings. **Status: PLAN_ONLY / NOT_RUN / NO_GO on generic SDK controller.**
+
 ## 5. Potential falsifiers (NOT RUN)
 
 | Test | Trigger and expected effect | Falsifier / no-go |

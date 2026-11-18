@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "20261118T192400Z--gascity-native-s4-feasibility-plan",
+  "recorded_at": "2026-11-18T19:24:00Z",
+  "actor": "ChatGPT (user-requested fork-local native-first feasibility plan)",
+  "kind": "DECISION",
+  "contribution_id": null,
+  "decision": "ALLOW",
+  "scope": "Research-only documentation for existing assessed Gas City roadmap. No public fork Issue, no original interaction, no product code/pack execution, and no new SDK controller approval.",
+  "evidence_urls": [
+    "https://github.com/opensiro/vsm-harness-index/blob/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f/assessments/ga/gascity.md",
+    "https://github.com/gastownhall/gascity/compare/03f6fe825cf0a54c677c241e4aaa7e76dade28a5...3764de45ea174753b4a401d98f6ab86740a151f7",
+    "https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/native-s4-feasibility.md"
+  ],
+  "next_action": "Verify first-party native S4 A–E path and matched baseline using read-only evidence first; run any scratch-city experiment and publish/implement only under separate applicable rights."
+}

@@ -20,6 +20,12 @@
 
 The original preliminary `NEEDS_EVIDENCE`, and subsequent pre-assessment `NO_USEFUL_CHANGE`, are retained in Git history, **not ratified as canonical prior decisions**. The [Upstream prerequisite protocol](https://github.com/opensiro/upstream/blob/main/PROTOCOL.md#mandatory-accepted-assessment-prerequisite--fail-closed) was satisfied before this re-evaluation.
 
+## Native-first S4 feasibility checkpoint (2026-11-18)
+
+**New next step:** [native-s4-feasibility.md](native-s4-feasibility.md) specifies the concrete future-provider counterfactual, supported first-party entry points, positive/negative evidence, baseline comparison and terminal `PACK_SUFFICIENT / GO_MINIMAL_PORT / NO_GO / BLOCKED` decision criteria. **This is a plan only, NOT_RUN**, and does not rescind the terminal `NO_GO` for a *new universal SDK controller*. Do not implement other original Issues in bulk as an experimental prerequisite. New approved implementation or public publication still needs its normal consent gate.
+
+**Latest original `main` checked for this plan:** [`3764de45ea174753b4a401d98f6ab86740a151f7`](https://github.com/gastownhall/gascity/commit/3764de45ea174753b4a401d98f6ab86740a151f7); [compare with accepted assessment ref](https://github.com/gastownhall/gascity/compare/03f6fe825cf0a54c677c241e4aaa7e76dade28a5...3764de45ea174753b4a401d98f6ab86740a151f7). Three post-assessment commits affect claim/session/test handling, not a shipped prospective S4 loop. Accepted Index `review_ref` is still `03f6fe825cf0a54c677c241e4aaa7e76dade28a5`.
+
 ## What to do now
 
 **Do not** add another global SDK controller, create an original feature/PR, publish an unapproved fork Issue, or classify a proposed S4 constructor as shipped. **Do** reuse existing first-party packs, orders, formulas, agent provider patches and exact original Issues. If a real future-provider disturbance and affected developer workflow become available, compare manual/native pack with an autonomous developer-composed policy and reopen a *new bounded* roadmap only if the existing first-party path demonstrably fails a user goal.

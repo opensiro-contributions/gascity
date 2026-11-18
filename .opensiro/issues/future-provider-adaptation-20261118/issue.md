@@ -52,6 +52,10 @@ OpenSiro investigates whether **standardized VSM-informed organizational capabil
 
 **Terminal decision: NO_GO** — use the best available original-native paths and own specific problems in their existing issues. **Research status: NEEDS_EVIDENCE** on whether there is a material additional S4 task. This does not assert `NO_USEFUL_CHANGE` as a proven empirical outcome.
 
+### Source-native follow-up checkpoint (PLAN_ONLY, no new core approval)
+
+The next **authorized research design** is [native-s4-feasibility.md](native-s4-feasibility.md): a prospective model/provider change, two approved choices, manual native baseline, developer-composed `retain/migrate/hold` actor, guarded later-session effect and real downstream feedback. Work is **not** "fix all existing Issues and see." First compare native pack/order/formula capability to the operator's supported manual path, then evaluate a *specific* still-missing first-party port. Stop with `PACK_SUFFICIENT`, `GO_MINIMAL_PORT`, `NO_GO`, or `BLOCKED / NEEDS_EVIDENCE` under the plan's test oracles. **Tests NOT_RUN; the current NO_GO for a new universal SDK controller remains unchanged.**
+
 ## 6. What could legitimately reopen a narrowly scoped roadmap
 
 A concrete operator/developer reports an actual **future** provider/model change, multiple lawful compatible choices and an adverse observable outcome from manually configured or native pack-based migration. That owner supplies the real signal and needed operator policy. First-party experimental implementation is **separately authorized**; a provider adapter is added only if the supported native composition **fails** a reproducible end-to-end case. The AI companion defines decisive positive/negative tests and source ownership.
