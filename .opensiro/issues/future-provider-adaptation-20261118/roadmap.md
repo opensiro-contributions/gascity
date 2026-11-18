@@ -3,7 +3,9 @@
 ## Identity and pins
 
 - Original repository: gastownhall/gascity
-- Original HEAD: d1c45f12f6a7102333c6574fe6de571377fd532f (latest independently observed 2026-11-18T18:49:01Z; accepted historical review_ref remains 03f6fe825cf0a54c677c241e4aaa7e76dade28a5)
+- Original HEAD: d1c45f12f6a7102333c6574fe6de571377fd532f
+- Original HEAD observed at: 2026-11-18T18:49:01Z
+- Accepted historical review_ref remains: 03f6fe825cf0a54c677c241e4aaa7e76dade28a5
 - Observed at: 2026-11-18
 - Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/34e11ec4dd52e1ba3ee0111d8bca73f13918f54f/assessments/ga/gascity.md
 - Accepted assessment blob SHA: 91478bc006342a6f92f41e3670d5708e50592da1
