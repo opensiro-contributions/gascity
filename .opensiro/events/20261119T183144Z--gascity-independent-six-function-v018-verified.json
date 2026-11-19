@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "20261119T183144Z--gascity-independent-six-function-v018-verified",
+  "recorded_at": "2026-11-19T18:31:44Z",
+  "actor": "AI-assisted OpenSiro Upstream operator",
+  "kind": "CHECKPOINT",
+  "decision": "GASCITY_V018_GO_RESEARCH_NEEDS_EVIDENCE",
+  "scope": "Independent six-function source-pinned proposal-stage rerun; fork-local research metadata only; no external original or public fork Issue/PR/comment",
+  "original_repository": "gastownhall/gascity",
+  "original_head": "187bf9a653df221bd82fbee6d14ff4fcb77962a1",
+  "accepted_index_commit": "394ce776e6945115891b8f7cc459f5a7f7d7aa39",
+  "case_id": "future-provider-adaptation-20261118",
+  "target_transition": "S4=— -> S4=C",
+  "proposal_stage_decision": "GO",
+  "research_disposition": "NEEDS_EVIDENCE",
+  "native_validation": "NOT_RUN",
+  "cost_status": "NOT_MEASURED",
+  "structural_validation": {
+    "command": "python3 scripts/validate_capability_roadmap.py <case-dir>",
+    "result": "PASS (remote opensiro/meta HEAD re-fetched 2026-11-19; syntactic, not semantic review)",
+    "protocol_ref": "4db2e1cd8666afd4981afb6c2270c37e96c36ead"
+  },
+  "current_fork_state": {
+    "owner_control": "ALLOW",
+    "attention": "ACTIVE"
+  },
+  "evidence_urls": [
+    "https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/README.md",
+    "https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/roadmap.md",
+    "https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/issue.md",
+    "https://github.com/opensiro-contributions/gascity/blob/opensiro/meta/.opensiro/issues/future-provider-adaptation-20261118/constructor-sufficiency.md",
+    "https://github.com/gastownhall/gascity/commit/187bf9a653df221bd82fbee6d14ff4fcb77962a1",
+    "https://github.com/opensiro/upstream/issues/58"
+  ],
+  "publication": "NONE from this rerun; existing historic Gas Town fork public Issue #1 remains unchanged",
+  "next_action": "Native-first scratch-city scenario with operator-approved alternatives; no implementation or external publication until separately authorized"
+}
