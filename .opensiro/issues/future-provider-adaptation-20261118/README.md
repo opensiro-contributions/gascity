@@ -2,7 +2,7 @@
 
 ## Current decision · Upstream v0.18.2 · 2026-11-20
 
-**Source:** [gastownhall/gascity@187bf9a](https://github.com/gastownhall/gascity/commit/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4).  
+**Source:** [gastownhall/gascity@e6e4723](https://github.com/gastownhall/gascity/commit/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4).  
 **Accepted Index:** [included assessment](https://github.com/opensiro/vsm-harness-index/blob/a3fcf7c156ef4d1132680890bc11544681fd30c0/assessments/ga/gascity.md), reviewed 2026-11-18 at `03f6fe825`; historical **S1=A · S2=C · S3=P · S3*=C · S4=— · S5=—**.
 
 - **Proposal-stage decision:** `GO` for a **bounded S4=— → S4=C construction hypothesis only**.
