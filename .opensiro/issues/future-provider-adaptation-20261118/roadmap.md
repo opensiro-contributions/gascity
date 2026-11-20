@@ -1,10 +1,10 @@
-# Gas City — independent six-function roadmap receipt (Upstream v0.18)
+# Gas City — independent six-function roadmap receipt (Upstream v0.18.2 same-case refinement)
 
 ## Identity and pins
 - Original repository: gastownhall/gascity
-- Original HEAD: 187bf9a653df221bd82fbee6d14ff4fcb77962a1
-- Observed at: 2026-11-19
-- Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/394ce776e6945115891b8f7cc459f5a7f7d7aa39/assessments/ga/gascity.md
+- Original HEAD: e6e47235027b758b9a86b0ddb99fb5d3a69c59e4
+- Observed at: 2026-11-20
+- Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/a3fcf7c156ef4d1132680890bc11544681fd30c0/assessments/ga/gascity.md
 - Accepted assessment blob SHA: 91478bc006342a6f92f41e3670d5708e50592da1
 - Accepted review ref: 03f6fe825cf0a54c677c241e4aaa7e76dade28a5
 - Accepted reviewed at: 2026-11-18
@@ -33,16 +33,17 @@
 - Proposal falsifier: native manual or order/pack route already meets all lawful C links with no distinct first-party port, or an authorized actor cannot safely effect a later session without crossing operator policy
 
 ## Rights and authority
-- MIT: https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/LICENSE. Contributor protocol: https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/CONTRIBUTING.md. External CLA/DCO-specific obligations NOT_VERIFIED.
-- Fork state: opensiro-contributions/gascity on opensiro/meta read 2026-11-19, owner_control=ALLOW, attention=WATCHING; authority is fork-local research metadata only, not public Issues/PRs or source implementation
+- MIT: https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/LICENSE. Contributor protocol: https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/CONTRIBUTING.md. External CLA/DCO-specific obligations NOT_VERIFIED.
+- Fork state: opensiro-contributions/gascity on opensiro/meta read 2026-11-20, owner_control=ALLOW, attention=ACTIVE; authority is fork-local research metadata only, not public Issues/PRs or source implementation
 - Parent choice: human city operator owns S3 present commitments and policy allowlist; no autonomous agent may expand providers, permissions or credentials
 - This proposal GO is a falsifiable constructibility hypothesis, not an Index regrade, shipped C, maintainer acceptance, implementation, benchmark or feature request
 
 ## Existing work / overlap
-- SHIPPED: [orders architecture](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/engdocs/architecture/orders.md); [order dispatcher](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/order_dispatch.go); [provider health gate](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/provider_health_gate.go); [provider swap](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/provider_swap.go); [config CLI](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/cmd_config.go); [config-drift deferral](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/config_drift_episode.go); [maintainer roadmap](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/ROADMAP.md).
+- SHIPPED: [orders architecture](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/engdocs/architecture/orders.md); [order dispatcher](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/order_dispatch.go); [provider health gate](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/provider_health_gate.go); [provider swap](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/provider_swap.go); [config CLI](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/cmd_config.go); [config-drift deferral](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/config_drift_episode.go); [maintainer roadmap](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/ROADMAP.md).
 - Orders dispatch event/cron/condition triggered shell or agent formula work. Provider gate consumes pack-supplied health, and stale/absent health is treated as no enforced negative signal; it does not independently predict future compatibility
 - Provider selection and provider swap exist, but `gc config` shows/explains the resolved configuration; no complete supported independently authorized S4 conditional commit + subsequent session verification contract was established in the default first-party boundary
-- Current original narrow defects: [#8419](https://github.com/gastownhall/gascity/issues/8419) model alias drift and [#8367](https://github.com/gastownhall/gascity/issues/8367) pricing, not a first-party future S4 actor/return path. [PR #2962](https://github.com/gastownhall/gascity/pull/2962) supplies the present-health gate. Maintainer [ROADMAP.md](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/ROADMAP.md) prioritizes session/reconciler reliability, performance and onboarding, not this hypothetical feature; maintainer interest NOT_STATED
+- Current original current-source difference: PR #7672 merged retrospective Codex policy repair, not S4; PR #9275 OPEN protected provider defaults patch, not shipped. New S4 construction must be native order/formula -> operator guarded config -> actual later task feedback, not generic supervisor. Current original main e6e47235027b758b9a86b0ddb99fb5d3a69c59e4; shipped orders (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/docs/tutorials/07-orders.md), configedit (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/internal/configedit/configedit.go), reload (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/cmd_reload.go) and health gate (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/provider_health_gate.go). Merged original PR #7672 repaired a retrospective Codex flag; open PR #9275 proposes guarded provider config updates but is NOT SHIPPED.
+- Current original narrow defects: [#8419](https://github.com/gastownhall/gascity/issues/8419) model alias drift and [#8367](https://github.com/gastownhall/gascity/issues/8367) pricing, not a first-party future S4 actor/return path. [PR #2962](https://github.com/gastownhall/gascity/pull/2962) supplies the present-health gate. Maintainer [ROADMAP.md](https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/ROADMAP.md) prioritizes session/reconciler reliability, performance and onboarding, not this hypothetical feature; maintainer interest NOT_STATED
 - Native lowest-cost alternative: operator selects allowed provider, edits city config and triggers normal reload; supported order/formula pack may be adequate without any generic new first-party code. That comparison must be tested, not dismissed
 
 ## Function ownership
@@ -90,8 +91,10 @@
 
 ## Delivery and publication
 - Result: PLAN_ONLY
+- v0.18.2 is same-case template/native refinement, not another first-ever independent Wave 4 verdict.
 - External issue: DRAFT — NOT PUBLISHED
 - Human: [issue.md](issue.md). AI: [constructor-sufficiency.md](constructor-sufficiency.md). Receipt: [roadmap.md](roadmap.md). Existing older [native-s4-feasibility.md](native-s4-feasibility.md) is retained as historic evidence, not execution proof
 - Native validation: NOT_RUN; structural validator to be run locally after metadata update
+- New source-only first pass was sealed before prior case review: https://github.com/opensiro/upstream/issues/58#issuecomment-7047711801 ; GO / NEEDS_EVIDENCE unchanged. Both Human eight-section and AI six-section current templates are required; no native tests performed.
 - Historical comparison AFTER independent decision: 2026-11-18 case at fork `b1125cb3` rejected a new generic SDK S4 controller with `NO_GO / NEEDS_EVIDENCE`; this v0.18 re-run selects a narrower **proposal-stage** opt-in first-party S4 actor/application/return design as `GO / NEEDS_EVIDENCE`, explicitly untested and overlapping the previous scenario; no new feature is claimed as discovered or implemented
 - No public fork/original Issue, comment, PR, code change or production experiment authorized

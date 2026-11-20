@@ -1,34 +1,120 @@
-# Gas City — S4 constructor sufficiency contract (AI/developer)
+# Gas City — native S4 construction technical contract
 
-**Canonical receipt:** [roadmap.md](roadmap.md) · **Human:** [issue.md](issue.md). This is source-only plan, not an implementation or test certification.
+<!--
+LEVEL 2: technical companion to ONE fork-local Human issue.md, NOT a second public Issue.
+This is a generic source/evidence contract, not a Paperclip port or nine-test recipe.
+Use only current pinned original first-party code, modes and original Issue/PR heads.
+The canonical case receipt roadmap.md owns all historical Index grades, six-function
+dispositions, priority values, target, proposal/research verdicts and publication status.
+Replace placeholders and add exactly as many native links/tests as the function needs.
+On every new/materially revised canonical case, revise the six numbered sections
+IN PLACE; do not append versioned technical/protocol status sections. Validate
+all four case files with BOTH case and template validators before persistence
+and again after committed SHA readback. External PR publication is separately gated.
+-->
+
+**Canonical storage:** `opensiro-contributions/gascity@opensiro/meta:.opensiro/issues/future-provider-adaptation-20261118/constructor-sufficiency.md`.
+**Level 1 / Human decision Issue:** [issue.md](issue.md).
+**Canonical decision receipt:** [roadmap.md](roadmap.md) — exact accepted VSM vector, six-function priorities, `Sx=[historical] -> Sx=C` or `NO_QUALIFIED_C_TARGET`, P0/P1/P2, proposal verdict, research disposition and evidence pins. **Do not reproduce a second six-row assessment table or invent independent statuses in this file.**
+**Stage:** PLAN_ONLY / HYPOTHESIS → PROPOSAL-STAGE → future VALIDATED (separate). **DRAFT — NOT PUBLISHED**; proposed code/tests are NOT_RUN, not shipped, not an Index reassessment.
+
+## 1. Function-specific construction boundary and methodology checks
+
+**Source and mode boundary:** Accepted historical Index: https://github.com/opensiro/vsm-harness-index/blob/a3fcf7c156ef4d1132680890bc11544681fd30c0/assessments/ga/gascity.md; commit a3fcf7c156ef4d1132680890bc11544681fd30c0, blob 91478bc006342a6f92f41e3670d5708e50592da1, review_ref 03f6fe825cf0a54c677c241e4aaa7e76dade28a5, reviewed 2026-11-18, Profile 0.2.4, Skills 0.3.8; S1=A, S2=C, S3=P, S3*=C, S4=—, S5=—. Current original main e6e47235027b758b9a86b0ddb99fb5d3a69c59e4; shipped orders (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/docs/tutorials/07-orders.md), configedit (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/internal/configedit/configedit.go), reload (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/cmd_reload.go) and health gate (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/provider_health_gate.go). Merged original PR #7672 repaired a retrospective Codex flag; open PR #9275 proposes guarded provider config updates but is NOT SHIPPED. Boundary: installed first-party city, bundled core pack, configured model CLI, native order/formula/bead, not external model vendor, maintainer or S5 operator.
 
 **Target transition:** S4=— -> S4=C
+
+**Six-function dependencies (S1/S2/S3/S3*/S4/S5):** S1 coding task returns later task evidence; S2 formula routing; S3 parent config/reload/in-flight work; S3* bundled quorum already C; S4 prospective autonomous choice; S5 operator allowlist/purpose.
+
+**Function witness:** A current original Gas City order/formula may compose an optional S4 future-provider decision actor; it must choose retain/migrate/hold within operator-approved providers, safely affect the next eligible session and read the real later task outcome. This is PLAN_ONLY, not an implemented capability.
+
+**Counterfactual owner test:** Without optional S4 agent native orders trigger and config reload executes but future provider choice remains with human; current health alert is not a future decision.
+
+**Possible methodological negative control:** Health snapshot or reload-only success is current management not independent external-future S4 closure. No intentional omission inferred.
+
+**Contributor / maintainer priorities:** Original roadmap focuses on reliability/performance/onboarding; proposed S4 feature interest NOT_STATED.
+
+## 2. Source-pinned baseline and parallel native Track A / on-top Track B
+
+**Original native workflow:** Current original main e6e47235027b758b9a86b0ddb99fb5d3a69c59e4; shipped orders (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/docs/tutorials/07-orders.md), configedit (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/internal/configedit/configedit.go), reload (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/cmd_reload.go) and health gate (https://github.com/gastownhall/gascity/blob/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4/cmd/gc/provider_health_gate.go). Merged original PR #7672 repaired a retrospective Codex flag; open PR #9275 proposes guarded provider config updates but is NOT SHIPPED. Human initializes city then gc sling task; order starts formula, worker produces task/bead result.
+
+**Closest existing solution:** Manual allowed provider config, doctor and reload, or stock first-party order/formula with site script and subsequent task inspection.
+
+**Relevant original Issues/PRs:** Original issues https://github.com/gastownhall/gascity/issues/8419 and https://github.com/gastownhall/gascity/issues/8367 are alias/pricing issues, not requests for this design. PR https://github.com/gastownhall/gascity/pull/9275 is OPEN, head 9ea9e86a48bd08bb7f9bf6e695405ad91eea7d26; PR https://github.com/gastownhall/gascity/pull/7672 is MERGED. SHIPPED merged PR #2962 health gate; #7672 Codex flag repair.
+
+| Required C link or real operator outcome | Track A: current shipped/Issue/PR coverage + evidence | Track B: smallest missing native integration or NONE | What would disprove this proposed need? |
+| --- | --- | --- | --- |
+| Future CLI prospective choice | Native order dispatch and reactive health gate | Optional model with future evidence and parent choices | Stock complete S4 actor already available |
+| Guarded session effect and returned task | Shipped configedit/reload, PR #9275 open only | Only missing versioned effect and outcome correlation | Reload-only acknowledgment |
+
+
+**On-top distinctness:** Use an opt-in native Gas City order/formula, not a generic cross-harness controller; first compare current operator config+doctor+reload and stock formula/manual alternatives; a protected config/next-session-return seam is proposed ONLY if missing.
+
+**Source ambiguity / rights blockers:** Need prove notice trust, current protected config effect and later task return; metadata ALLOW is not original or fork public Issue authorization.
+
+## 3. Minimal complete S4 first-party C construction
+
+**Required property:** An autonomous developer-composed function-specific S4 owner must choose based on future evidence, lawfully affect later work, and receive actual later feedback; scheduling alone is not C.
+
+**Physical interface count is NOT prescribed.** The logical obligations may be implemented by one native API, several existing mechanisms and one added port, or more components; propose **only what original source proves necessary**. Do not copy Paperclip's five-port pattern.
+
+| Necessary native component or port (repeat/omit rows as evidence requires) | Existing file/API and evidence | Smallest proposed edit / developer integration | Legitimate owner, effect and return |
+| --- | --- | --- | --- |
+| City order and formula worker | Shipped order/formula | Opt-in dated future provider evidence and model choice | Authorized retain/migrate/hold |
+| Config effect and later worker feedback | Existing configedit/reload and bead/task status | Guarded bridge if necessary | Parent-authorized change and later real result |
+
+**Native-specific design advice (not a new gate):** If the same actor/feedback loop could be copied to an unrelated harness merely by renaming interfaces, sharpen the original's particular decision boundary, existing native components, smallest proposed edit and actual downstream return. Do not invent extra infrastructure or a specificity score.
+
+**Architectural C-sufficiency argument:** Use an opt-in native Gas City order/formula, not a generic cross-harness controller; first compare current operator config+doctor+reload and stock formula/manual alternatives; a protected config/next-session-return seam is proposed ONLY if missing. Bound S4 to one Gas City provider family and one agent/rig. Candidate uses optional order/formula, not another supervisor, with only missing safe next-session effect and task feedback.
+
+**Explicit non-goals:** No generic controller, automatic provider binary installer, blanket S5 autonomy, unsolicited S3 or S3* addition, no default product change.
+
+**Implementation dependency graph:** P1 notice identity/expiry, parent allowlist, compare native alternatives; P0 actor + only missing protected config/task feedback; P1 native acceptance tests; P2 NONE.
+
+## 4. Priorities, optional alternative and stopping rules
+
+**P0 and P1:** P0 one native future provider S4 loop; P1 source trust, revision, operator rights, in-flight fence and real later task proof.
+
+**P2:** NONE.
+
+**Alternative path:** Human/stock order/formula provider selection, no product change if it closes same C loop.
+
+**Stop:** Shipped equivalent S4, no lawful independent option, no real returned task evidence or parent cannot authorize safely.
+
+## 5. Future source-native acceptance — derive tests, do not copy a matrix
+
+**Native test commands and entry points:** Gas City uses Bazel/go targets for cmd/gc and configedit, but exact test selection remains P1. Native tests NOT_RUN.
+
+**Positive functional closure:** Synthetic prospective notice with two allowed providers causes developer-composed S4 migration, later worker launches with approved provider and actual task result returns.
+
+**Independent alternative (where applicable):** A valid compatible notice yields retain, unsafe notice yields hold; independent model not deterministic dispatcher decides.
+
+**Negative authority and compatibility (where applicable):** Absent actor, expired/forged future evidence, forbidden provider, concurrent edit, in-flight work, failed launch or absent later task receipt must fail safely; no new S5 authority.
+
+**Matched native alternative:** Same scratch-city task and future notice with manual operator/stock order; results NOT_RUN and costs NOT_MEASURED.
+
+| Proposed native case (add as many or few rows as needed) | Real source-supported setup / command | Expected effect and return | Falsifier or stop |
+| --- | --- | --- | --- |
+| Synthetic future CLI notice (NOT_RUN) | Stock order and proposed scratch city | New eligible session provider + task result | Only reload ACK, no actual task |
+
+**Example IDs such as AC-01…AC-09, fixed port names or a universal test count are deliberately not supplied.** Coverage principles require only source-applicable cases, with explicit reason when a principle does not apply. Until executed and evidenced, results are **NONE / NOT_RUN** (not passing tests).
+
+## 6. Proposal verdict, falsification, evidence ownership and handoff
+
 **Proposal-stage decision:** GO
+
 **Research disposition:** NEEDS_EVIDENCE
 
-## Scope and competing owners
-Original [HEAD](https://github.com/gastownhall/gascity/commit/187bf9a653df221bd82fbee6d14ff4fcb77962a1); [accepted Index](https://github.com/opensiro/vsm-harness-index/blob/394ce776e6945115891b8f7cc459f5a7f7d7aa39/assessments/ga/gascity.md). Full six-function historical/current matrix is rendered only in Human [issue.md](issue.md) and receipt. Coding agents are S1; composer-owned conflict/review formulas already support S2/S3*. The human operator is current S3/P and holds policy/allowed providers, not delegated to the proposed S4 actor.
+**GO + NEEDS_EVIDENCE is valid** when the proposed complete C constructor is architecturally source-grounded, lawful and falsifiable **but experiments, demand or benefit measurements are not yet performed**. `GO` is not an implementation authorization or test pass. `NO_GO` must have scoped architectural or justified no-target reasons. `BLOCKED` requires an indispensable unresolved source/right fact after permitted attempts. Do not automatically turn NEEDS_EVIDENCE into NO_GO or BLOCKED.
 
-## Track A: shipped source / original work
-1. [Order architecture](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/engdocs/architecture/orders.md): supported cron/event/condition `order.toml` can dispatch exec or agent formula; order history/tracking is not a prospective decision.
-2. [Provider health gate](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/provider_health_gate.go): one current health snapshot per tick, read from an optional watcher-written file. Stale/unreadable entries fail open; gate/alert is reactive S3 machinery, not proof of future S4.
-3. [Provider swap](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/provider_swap.go), [config CLI](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/cmd_config.go) and [drift deferral](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/cmd/gc/config_drift_episode.go): runtime effect, inspection and active-work safety exist. The `gc config` command currently offers show/explain, not a complete conditional agent-written patch + authoritative post-session evidence contract.
-4. [#8419](https://github.com/gastownhall/gascity/issues/8419), [#8367](https://github.com/gastownhall/gascity/issues/8367): present maintainer feature/bug scope; do not duplicate. [Maintainer roadmap](https://github.com/gastownhall/gascity/blob/187bf9a653df221bd82fbee6d14ff4fcb77962a1/ROADMAP.md) names reliability/performance/onboarding. No evidenced request for this S4 actor.
+**Primary falsifier:** Same complete S4 closure in current stock first-party path or actor has no lawful effect.
+**Validation state:** NOT_RUN native behavior; structural template validator is not a capability test.
 
-## Track B: minimum function-specific C chain (all proposed)
-| Link | First-party candidate atop A | Falsifier |
-|---|---|---|
-| Future sensing | Versioned signed/attributed effective-at compatibility notice; optional adapter, TTL and support confidence separate from present health | Only current outage/429 and no forward evidence |
-| Options | Immutable retain/migrate/hold candidate set intersected with operator allowlist and provider compatibility; forbidden candidate never enters decision | Actor expands parent permission |
-| Autonomous decision | Developer-composed model agent in first-party supported formula chooses one of >=2 lawful options with reason and stable choice key | deterministic order/host script already gives identical legitimate choices |
-| Safe effect | Narrow opt-in conditional provider config patch (expected revision, authorized affected agents and safe work fences), existing controller observes config and reconciles next eligible session | Existing config editor already provides same atomic conditions; then no new code |
-| Real feedback | Capture identity/provider/actual task result of later session and return it to the actor for next choice; fail/hold and no false completion on reload-only ack | Only file write/reload ack, no actual task result |
+**Ownership of truth:** Profile semantics; Skills procedure; Index grades; original maintainer product; roadmap.md this research case.
 
-## Implementation minimum and boundaries
-P0 is *not* a new generic controller. Start with a source-native opt-in pack/formula on a disposable scratch city. If the stock pack/manual mechanism cannot safely commit a developer-composed choice, specify just one conditional config application + later-session feedback port; do not create another scheduled worker or policy/S5 engine. P1 adds evidence, allowed options, config-version check, lifecycle enforcement and native tests. No P2.
+**Cost status:** NOT_MEASURED.
+**Next permitted action:** Internal source review and separately consented scratch-city validation, no external/public original or fork Issue.
+**Human backlink:** [issue.md](issue.md)
+**case receipt:** [roadmap.md](roadmap.md)
 
-## Future native tests (all NOT_RUN)
-Positive: a dated synthetic future notice with two allowed providers yields one actor-selected option, guarded safe apply, later session with that provider and actual result returned. Alternative: no need to migrate yields retain/hold. Negative: absent actor, stale/forged notice, forbidden provider, concurrent human config change, in-flight work, failed launch and missing later-result acknowledgement must never report success or escalate rights. Compatibility: default absent-opt-in must follow stock code paths. Baselines: stock operator edit/reload and supported order/script/pack, same task and evidence; measure implementation/maintenance effort, success and human interventions.
-
-## Scope conclusion and historic comparison
-Current-source proposal GO with NEEDS_EVIDENCE is compatible with v0.18 proposal-stage rules and does not assert a new production capability. Earlier fork case (2026-11-18) was NO_GO on *new generic S4 SDK/controller*, with a native-first feasibility plan; our narrower optional constructor uses the same family of scenario, so novelty/actual demand is not claimed. Overlap may falsify need for a new core port. No native tests, GitHub publication, original maintainer approval or Index regrade.
+**No original external Issue/comment/PR**, public fork Issue/PR, product code, new authority grant or Index revision is implied by this contract. Publication needs a distinct exact current-conversation approval; `PAUSE/STOP` remains binding. **AI disclosure:** Prepared with AI assistance, without presumed native test execution or independent review.

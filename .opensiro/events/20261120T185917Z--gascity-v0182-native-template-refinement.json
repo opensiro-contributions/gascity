@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "20261120T185917Z--gascity-v0182-native-template-refinement",
+  "recorded_at": "2026-11-20T18:59:17Z",
+  "actor": "AI-assisted OpenSiro Upstream operator (current user-requested #58 single harness)",
+  "kind": "CHECKPOINT",
+  "decision": "GASCITY_V0182_GO_NEEDS_EVIDENCE_NATIVE_TEMPLATE_REPAIRED",
+  "scope": "Existing stable case source-native and mandatory Human/AI template compliance refinement; no new independent Wave 4 first-ever verdict, product implementation or public communication",
+  "original_repository": "gastownhall/gascity",
+  "original_head": "e6e47235027b758b9a86b0ddb99fb5d3a69c59e4",
+  "accepted_index_commit": "a3fcf7c156ef4d1132680890bc11544681fd30c0",
+  "accepted_assessment_blob": "91478bc006342a6f92f41e3670d5708e50592da1",
+  "case_id": "future-provider-adaptation-20261118",
+  "target_transition": "S4=— -> S4=C",
+  "proposal_stage_decision": "GO",
+  "research_disposition": "NEEDS_EVIDENCE",
+  "native_validation": "NOT_RUN",
+  "cost_status": "NOT_MEASURED",
+  "structural_validation": {
+    "commands": [
+      "python3 scripts/validate_capability_roadmap.py <case-dir>",
+      "python3 scripts/validate_roadmap_publication.py <case-dir>"
+    ],
+    "prewrite": "PASS / ROADMAP_TEMPLATE_PREFLIGHT_PASS_NOT_PUBLICATION_APPROVAL",
+    "semantic_review": "NOT_CLAIMED"
+  },
+  "current_fork_state": {
+    "owner_control": "ALLOW",
+    "attention": "ACTIVE"
+  },
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7047659778",
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7047711801",
+    "https://github.com/gastownhall/gascity/commit/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4",
+    "https://github.com/gastownhall/gascity/pull/9275",
+    "https://github.com/gastownhall/gascity/pull/7672"
+  ],
+  "publication": "NO_NEW_PUBLIC_FORK_ISSUE_OR_EXTERNAL_ORIGINAL_COMMUNICATION",
+  "next_action": "Permitted source-native comparator of order/formula/manual provider config vs a proposed bounded S4 constructor; scratch execution or outward publication requires separate exact approval"
+}

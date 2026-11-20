@@ -1,9 +1,9 @@
 # Gas City — OpenSiro independent Capability Roadmap
 
-## Current decision · Upstream v0.18 · 2026-11-19
+## Current decision · Upstream v0.18.2 · 2026-11-20
 
-**Source:** [gastownhall/gascity@187bf9a](https://github.com/gastownhall/gascity/commit/187bf9a653df221bd82fbee6d14ff4fcb77962a1).  
-**Accepted Index:** [included assessment](https://github.com/opensiro/vsm-harness-index/blob/394ce776e6945115891b8f7cc459f5a7f7d7aa39/assessments/ga/gascity.md), reviewed 2026-11-18 at `03f6fe825`; historical **S1=A · S2=C · S3=P · S3*=C · S4=— · S5=—**.
+**Source:** [gastownhall/gascity@187bf9a](https://github.com/gastownhall/gascity/commit/e6e47235027b758b9a86b0ddb99fb5d3a69c59e4).  
+**Accepted Index:** [included assessment](https://github.com/opensiro/vsm-harness-index/blob/a3fcf7c156ef4d1132680890bc11544681fd30c0/assessments/ga/gascity.md), reviewed 2026-11-18 at `03f6fe825`; historical **S1=A · S2=C · S3=P · S3*=C · S4=— · S5=—**.
 
 - **Proposal-stage decision:** `GO` for a **bounded S4=— → S4=C construction hypothesis only**.
 - **Research:** `NEEDS_EVIDENCE`. **Native runtime validation:** `NOT_RUN`. **Cost:** `NOT_MEASURED`.
@@ -21,6 +21,9 @@ The proposal is an **opt-in, operator-bounded** future-provider compatibility ad
 - [verification-20261118.md](verification-20261118.md) — earlier accepted-Index-backed review, not the latest v0.18 decision.
 
 ## Historical decision and important limits
+
+Current v0.18.2 same-case native-specific/template refinement, after first source-only checkpoint https://github.com/opensiro/upstream/issues/58#issuecomment-7047711801. No new independent first-ever result, product change, native test or publication.
+
 
 The 2026-11-18 case rejected a **new generic SDK-wide S4 controller** as `NO_GO` while leaving the feasibility of an incremental native path `NEEDS_EVIDENCE`. That prior decision is not deleted or inverted: the new `GO` is **proposal-stage approval of a narrower, falsifiable construction**, not permission to implement it. This variant strongly overlaps the old feasibility plan; no original new demand, demonstrated utility, or new shipped capability is claimed.
 
