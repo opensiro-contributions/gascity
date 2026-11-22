@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "20261122T151257Z--gascity-original-feature-issue-draft-ready",
+  "recorded_at": "2026-11-22T15:12:57Z",
+  "actor": "ChatGPT OpenSiro Upstream Roadmap pilot #93 operator; internal draft preparation only",
+  "kind": "CHECKPOINT",
+  "decision": "GASCITY_ORIGINAL_ISSUE_DRAFT_READY / PREFLIGHT_PASS / EXACT_OWNER_APPROVAL_REQUIRED / NOT_PUBLISHED",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/93",
+    "https://github.com/opensiro/upstream/pull/97",
+    "https://github.com/opensiro/upstream/pull/99",
+    "https://github.com/opensiro/upstream/pull/100",
+    "https://github.com/gastownhall/gascity/commit/f4627bc5a305450b2cb93967ae631324c9a9ce22",
+    "https://github.com/gastownhall/gascity/issues/8419",
+    "https://github.com/gastownhall/gascity/issues/8367",
+    "https://github.com/gastownhall/gascity/pull/9275"
+  ],
+  "note": "Verified original/fork Issues route, active allowed working fork, accepted Index SHA pinned assessment and current original source main after 31 commits / 155 changed paths vs historical case. Reviewed relevant first-party provider/formula/config changes and original overlap: #8419 OPEN with human feedback; #8367 CLOSED Nov 21; #9275 OPEN/unmerged with guarded provider patch + later-session model event proposal. Staged exact separately validated 7-section external original Feature Request title/body for human approval. Original payload body SHA-256 c440ec361039ada18c4713f25b32b7e8f6a59853c34e437dca74aeb5a4d26efa; title SHA-256 b866e00060c00487e16f2699ad345833522d4baebb510cb95951a894827df426. Merged Upstream main@46426a302ca6cb89e1c1a7625954ca7c505199ed: 222 tests PASS, canonical case and template validators PASS, external payload preflight PASS. Structural results do not establish product demand, maintainer acceptance, native implementation, tests, benefit, Index regrade or S5 grant. Original/public fork Issues, Discussion, comments and PRs NOT_PUBLISHED from this case.",
+  "next_action": "Recheck original main HEAD and overlapping original Issue/PR state, repo route and publisher identity; display exact full draft and obtain separate current-conversation owner consent for original gastownhall/gascity new Issue before POST. If old source changed or text drifted, revalidate and obtain renewed consent."
+}
