@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "20261122T152241Z--gascity-publication-blocked-native-form-and-source-drift",
+  "recorded_at": "2026-11-22T15:22:41Z",
+  "actor": "ChatGPT OpenSiro Upstream pilot #93 operator; internal source-policy correction",
+  "kind": "CHECKPOINT",
+  "decision": "PUBLICATION_BLOCKED_NATIVE_FORM_AND_SOURCE_DRIFT / NO_THIRD_PARTY_WRITE",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/93",
+    "https://github.com/opensiro/upstream/pull/101",
+    "https://github.com/opensiro/upstream/pull/102",
+    "https://github.com/gastownhall/gascity/blob/a47ce14d1d187fc17fa8f56d12e5d5e59874f655/.github/ISSUE_TEMPLATE/feature_request.yml",
+    "https://github.com/gastownhall/gascity/commit/a47ce14d1d187fc17fa8f56d12e5d5e59874f655"
+  ],
+  "note": "Earlier OpenSiro seven-section original-Issue draft passed own format validator but NOT original Gas City native mandatory Feature Request Issue Form. GitHub original form requires title prefixed feat:, seven mandatory fields and three checkboxes, including explicit human read-and-stands-behind claim. Native-form preflight detects 11 mismatches. During case draft validation original default HEAD f4627... advanced one commit to a47ce14... (CLI path identity #9409); current source-head preflight detects SOURCE_HEAD_DRIFT. Both missing gates repaired in merged internal Upstream PR #101/#102, CI SUCCESS and 226 tests PASS postmerge. No human authorship attestations invented, no third-party publication, native tests or current Index regrade. Existing canonical Roadmap/Human/AI and seven-section draft left unchanged for traceable failure record.",
+  "next_action": "Do not publish current original draft. First establish concrete source-grounded user problem/need and native form compatibility; require legitimate personal human-read endorsement and separately approved exact public payload. Confirm original HEAD just before any action or select NO_PUBLICATION."
+}
